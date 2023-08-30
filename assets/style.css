@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .foto {
     width: 100%;
     height: 100%;
+    background-color: #000000;
 }
 
 .foto-dos {
@@ -16,6 +17,8 @@
 .vertical {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
+    color: #ffc107;
+
 }
 
 .carousel-item .card-portafolio{
@@ -30,6 +33,33 @@
 
 .link-light{
     text-decoration: none;
+}
+
+.lado-izquierdo, .list-group, .list-group-item{
+    background-color: #232323;
+    color: antiquewhite;
+}
+
+.amr{
+    background-color: #ffc107;
+    width: 80%;
+    height: 150px;
+    position: relative;
+    top: 120px;
+    padding: 30px;
+}
+
+.fport{
+    font-size:xx-large; 
+    background-color: #ffc107;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.ft{
+    font-size: xx-large;
+    padding: 30px;
 }
 
 /* hector-garcia-27.github.io */
