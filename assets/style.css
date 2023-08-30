@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+}
+
+.foto-dos {
+    height: 25%;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.carousel-item .card-portafolio{
+    padding: 50px;
+    height: 100%; 
+}
+
+.carousel-item .carousel-item{
+    height: 400px;
+    align-items: center;
+}
+
+.link-light{
+    text-decoration: none;
+}
+
+/* hector-garcia-27.github.io */

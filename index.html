@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba módulo uno</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Curriculum</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiencia laboral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FOTO + NOMBRE -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-4 col foto">
+                <img class="foto" src="./assets/img/foto curriculum.jpg" alt="foto">
+            </div>
+            <div class="col-sm-8">
+                <h1>Hector Garcia</h1>
+                <h4>Contador General</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- (DESCRIPCION + (EDUCACION  Y EXPERIENCIA)) -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-4 col">
+
+                <!-- descripcion -->
+                <div>
+                    <p>Contador general, recientemente empecé a formarme como programador full stack.
+                        Comprometido, dedicado y responsable.
+                    </p>
+                </div>
+                <!-- contacto -->
+                <div>
+                    <h4>Contacto</h4>
+                    <ul class="list-group list-group-flush text-start">
+                        <li class="list-group-item">
+                            <i class="fa-brands fa-whatsapp fa-xl" style="color: #000000;"></i>
+                            <a class="text-decoration-none" href="" style="color: #000000">+56 9 9988 1047</a>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-regular fa-envelope fa-xl" style="color: #000000;"></i>
+                            <a class="text-decoration-none" href="mailto:garcia27h@hotmail.com">garcia27h@hotmail.com</a>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
+                            <a class="text-decoration-none" href="www.linkedin.com/in/hmgn-37a906135">Linkedln</a>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-brands fa-github fa-xl" style="color: #000000;"></i>
+                            <a class="text-decoration-none" href="https://github.com/hector-garcia-27">Github</a>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-location-dot fa-xl" style="color: #000000;"></i>
+                            <a class="text-decoration-none" style="color: #000000;" href="">Decima Av. 1180. San
+                                Miguel</a>
+                        </li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </div>
+                <!-- software -->
+                <div>
+                    <h4>Manejo de Software</h4>
+                    <ul class="list-unstyled text-start">
+                        <li class="lh-1">Excel</li>
+                        <li class="lh-1">ERP SAP S/4 HANA</li>
+                        <li class="lh-1">HCM FRONT</li>
+                        <li class="lh-1">AutoCAD</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-8">
+
+                <!-- Formacion -->
+
+                <section>
+                    <h4>Formación</h4>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/img/logo_unet.jpg" class="img-fluid rounded-start" alt="logo UNET">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ingeniería Agronómica</h5>
+                                    <p class="card-text">Universidad Nacional Experimental del Táchira.</p>
+                                    <p class="card-text"><small class="text-body-secondary">incompleto, 8 semestres.
+                                            2011 - 2017. Venezuela</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/img/logo-inacap.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Contabilidad General</h5>
+                                    <p class="card-text">Centro de formacion técnica INACAP</p>
+                                    <p class="card-text"><small class="text-body-secondary">Titulado, 2021 - 2023. Chile
+                                        </small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/img/desafio-logo.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Desarrollador Fullstack JavaScrip</h5>
+                                    <p class="card-text">Desafío Latam</p>
+                                    <p class="card-text"><small class="text-body-secondary">En curso. 2023.
+                                            Chile</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experiencia -->
+                <div class="experiencia">
+                    <div class="p-3">
+                        <h4>Experiencia laboral</h4>
+                    </div>
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-2 vertical">
+                                <p>Vzla 2013-2016</p>
+                            </div>
+                            <div class="col-10 text-start">
+                                <h5>Dibujante técnico</h5>
+                                <h6>Constructora HUCER</h6>
+                                <ul>
+                                    <li>Crear planos, dibujos y modelos técnicos para proyectos de construcción</li>
+                                    <li>Realizar cálculos y mediciones precisas para garantizar la calidad de los
+                                        dibujos técnicos</li>
+                                    <li>Manejo de herramientas de software de diseño y dibujo, como AutoCAD</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-2 vertical">
+                                <p>Vzla 2016-2017</p>
+                            </div>
+                            <div class="col-10 text-start">
+                                <h5>Garzón</h5>
+                                <h6>La mordida café</h6>
+                                <ul>
+                                    <li>Actuar como punto de contacto entre el personal de sala y el de cocina</li>
+                                    <li>Comunicar las comandas de comida a los cocineros, prestando atención a
+                                        prioridades y peticiones especiales</li>
+                                    <li>Comprobar si todo está bien con los clientes y llevar cualquier comanda
+                                        adicional</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-2 vertical">
+                                <p>Chile 2017-2018</p>
+                            </div>
+                            <div class="col-10 text-start">
+                                <h5>Maestro aprendiz, cajero, garzón y repartidor</h5>
+                                <h6>IZI Sushi</h6>
+                                <ul>
+                                    <li>manipular una amplia variedad alimentos, gestionar las existencias y trabajar
+                                        con atención al detalle</li>
+                                    <li>recepcionar, entregar y custodiar dinero en efectivo, cheques, giros y demás
+                                        documentos de valor</li>
+                                    <li>ofrecer asistencia a los clientes, y mantener el comedor siempre limpio y en las
+                                        mejores condiciones posibles</li>
+                                    <li>Conducir el vehículo de reparto hasta los diferentes destinos incluidos en la
+                                        ruta</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-2 vertical">
+                                <p>Chile 2018-2023</p>
+                            </div>
+                            <div class="col-10 text-start">
+                                <h5>Driver repartidor</h5>
+                                <h6>PJ Chile Spa</h6>
+                                <ul>
+                                    <li>Atención telefónica, recepción de pedidos y gestión de quejas</li>
+                                    <li>Realización de labores de lmpieza y orden del local</li>
+                                    <li>Conducir el vehículo de reparto hasta los diferentes destinos incluidos en la
+                                        ruta</li>
+                                    <li>Planificar el horario y la ruta de reparto</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-2 vertical">
+                                <p>Chile 2023-Actual</p>
+                            </div>
+                            <div class="col-10 text-start">
+                                <h5>Analista de proveedores</h5>
+                                <h6>Viña Santa Rita</h6>
+                                <ul>
+                                    <li>Realizar contabilizaciones de facturas y compromisos de pagos a proveedores</li>
+                                    <li>Analzar y gestionar pagos de reembolsos y fondos fijos</li>
+                                    <li>Generar reportes que apoyen al área de administración y finanzas</li>
+                                    <li>ateción telefónica a proveedores</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- portafolio -->
+        <div>
+            <h4>Portafolio</h4>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="card-portafolio">
+                        <img  src="./assets/img/desafio-uno.png" alt="img proyecto 1">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h6>Descripción</h6>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non, modisunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://hector-garcia-27.github.io/Desafio-uno/" target="_blank" class="link-light">Abrir en nueva pestaña</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://github.com/hector-garcia-27/Desafio-uno" target="_blank" class="link-light">ir al repositorio</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="card-portafolio">
+                        <img src="./assets/img/desafio-dos.png" alt="img proyecto 2">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h6>Descripción</h6>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non, modisunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://hector-garcia-27.github.io/desafio-dos/" target="_blank" class="link-light">Abrir en nueva pestaña</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://github.com/hector-garcia-27/desafio-dos" target="_blank" class="link-light">ir al repositorio</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="card-portafolio">
+                        <img src="./assets/img/desafio-tres.png" alt="img proyecto 3">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h6>Descripción</h6>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non, modisunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://hector-garcia-27.github.io/Desafio-tres/" target="_blank" class="link-light">Abrir en nueva pestaña</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://github.com/hector-garcia-27/desafio-tres" target="_blank" class="link-light">ir al repositorio</a>                                                                        
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="card-portafolio">
+                        <img src="./assets/img/desafio-cuatro.png" alt="img proyecto 4">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h6>Descripción</h6>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non, modisunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://hector-garcia-27.github.io/desafio-cuatro/" target="_blank" class="link-light">Abrir en nueva pestaña</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://github.com/hector-garcia-27/desafio-cuatro" target="_blank" class="link-light">ir al repositorio</a>                                    
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="carousel-item">
+                    <div class="card-portafolio">
+                        <img src="./assets/img/logo-inacap.jpg" alt="">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Descripción</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non, modisunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- footer -->
+        <footer class="text-center">
+            <h3>aqui va el footer</h3>
+        </footer>
+
+
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/b0f526b800.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
