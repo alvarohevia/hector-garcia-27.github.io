@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #ffc107;
 }
 
 .foto {
@@ -67,4 +71,7 @@ footer{
     font-weight: bold;
 }
 
-/* hector-garcia-27.github.io */
+.container{
+    display: contents;
+    align-items: center;
+}
