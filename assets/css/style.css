@@ -8,9 +8,10 @@
     background-color: #ffc107;
 }
 
-.foto {
+.foto img{
+    height: auto;
     width: 100%;
-    height: 100%;
+    max-width: 100%;
     background-color: #000000;
 }
 
@@ -46,11 +47,11 @@
 
 .amr{
     background-color: #ffc107;
-    width: 80%;
-    height: 150px;
-    position: relative;
-    top: 120px;
+    width: 80%; 
     padding: 30px;
+    height: 150px;
+    position: relative; top: 30px;
+
 }
 
 .fport{
@@ -73,5 +74,18 @@ footer{
 
 .container{
     display: contents;
-    align-items: center;
+}
+
+.container .part-sup {
+    display: flex;
+    justify-content: center;    
+
+}
+
+.lado-izquierdo .hab  {
+    padding: 10px  ;
+}
+
+.lado-izquierdo .lista {
+    list-style: none;
 }
