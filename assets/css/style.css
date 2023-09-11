@@ -89,3 +89,7 @@ footer{
 .lado-izquierdo .lista {
     list-style: none;
 }
+
+.carousel .carousel-inner .carousel-item .card-portafolio img {
+    height: 300px;
+}
