@@ -1,16 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .navbar{
     background-color: #ffc107;
 }
 
+.part-sup {
+    display: flex;
+    
+}
+
 .foto img{
-    height: auto;
-    width: 100%;
     max-width: 100%;
     background-color: #000000;
 }
@@ -46,12 +48,13 @@
 }
 
 .amr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ffc107;
-    width: 80%; 
-    padding: 30px;
+    padding-top: 30px;
     height: 150px;
-    position: relative; top: 30px;
-
+    position: relative; top: 140px;
 }
 
 .fport{
