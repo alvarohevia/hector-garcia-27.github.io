@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba módulo uno</title>
     <!-- css -->
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -14,9 +14,11 @@
 </head>
 
 <body>
+    <!-- prueba pull fork -->
+    <!--por aqui el hermanolf mariolf-->
     <!--Este mensaje es solo para indicar que puedo acceder a tu código y solicito que puedas aprobar mi pull request jajaja-->
     <!-- barra de navegación -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Curriculum</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                        <a class="nav-link active" aria-current="page" href="#">Acerca de mí</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Educación</a>
@@ -43,68 +45,89 @@
     </nav>
 
     <!-- FOTO + NOMBRE -->
-    <div class="container text-center p-0">
-        <div class="row">
-            <div class="col-sm-4 col foto p-0">
-                <img class="foto" src="./assets/img/img-curric.jpeg" alt="foto">
-            </div>
-            <div class="col-sm-8 bs-warming amr">
-                <h1>Hector Garcia</h1>
-                <h4>Contador General</h4>
-            </div>
+    <div class="part-sup">
+        <div class="col-sm-4 col foto p-0">
+            <img class="foto" src="./assets/img/img-curric.jpeg" alt="foto">
+        </div>
+        <div class="col-sm-8 amr">
+            <h1>Hector Garcia</h1>
+            <h4>Contador General</h4>
         </div>
     </div>
 
-    <!-- (DESCRIPCION + (EDUCACION  Y EXPERIENCIA)) -->
-    <div class="container text-center p-0">
+    <!-- (DESCRIPCION + (EDUCACION Y EXPERIENCIA)) -->
+    <div class="container text-center p-0 m-0">
         <div class="row pb-5">
             <div class="col-sm-4 col lado-izquierdo">
                 <div class="lado-izquierdo">
 
                     <!-- descripcion -->
                     <div>
-                        <p>Contador general, recientemente empecé a formarme como programador full stack.
-                            Comprometido, dedicado y responsable.
-                        </p>
+                        <h4 class="ft">Acerca de mí</h4>
+                        <p class="text-start ps-2">Casismático, enfocado en mis objetivos, proactivo, Me gusta trabajar
+                            con
+                            personas que me brinden la oportunidad de aprender y mejorar.</p>
+                        <ul class="text-start ps-4">
+                            <li>Nacionalidad: Venezolano</li>
+                            <li>Estatus migratorio: Visa definitiva</li>
+                            <li>Edad: 28 años</li>
+                            <li>RUT: 26.221.894-5</li>
+                        </ul>
+                    </div>
+
+                    <!-- Objetivo -->
+                    <div>
+                        <h4 class="ft">Objetivo</h4>
+                        <p class="text-start ps-2">Pertenecer a un equipo de trabajo que me permita desarrollar de forma
+                            personal y profesionalmente, alineada a los objetivos y funciones inherentes al área.</p>
+                        <p class="text-start ps-2">Dar un srvicio de calidad en mi gestión co enfoque claro de mis
+                            objetivos
+                            y metas.</p>
                     </div>
                     <!-- contacto -->
-                    <div class="lado-izquierdo">
-                        <h4>Contacto</h4>
-                        <ul class="lado-izquierdo list-group list-group-flush text-start bs-dark">
-                            <li class="list-group-item">
-                                <i class="fa-brands fa-whatsapp fa-xl" style="color: #000000;"></i>
-                                <a class="text-decoration-none" href="" style="color: #000000">+56 9 9988 1047</a>
+                    <div class="lado-izquierdo text-start">
+                        <h4 class="ft text-center">Contacto</h4>
+                        <ul class="lista">
+                            <li class="pb-2">
+                                <i class="fa-brands fa-whatsapp fa-xl" style="color: white;"></i>
+                                <a class="text-decoration-none" href="" style="color: antiquewhite">+56 9 9988 1047</a>
                             </li>
-                            <li class="list-group-item">
-                                <i class="fa-regular fa-envelope fa-xl" style="color: #000000;"></i>
+                            <li class="pb-2">
+                                <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i>
                                 <a class="text-decoration-none"
                                     href="mailto:garcia27h@hotmail.com">garcia27h@hotmail.com</a>
                             </li>
-                            <li class="list-group-item">
-                                <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
+                            <li class="pb-2">
+                                <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
                                 <a class="text-decoration-none" href="www.linkedin.com/in/hmgn-37a906135">Linkedln</a>
                             </li>
-                            <li class="list-group-item">
-                                <i class="fa-brands fa-github fa-xl" style="color: #000000;"></i>
+                            <li class="pb-2">
+                                <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
                                 <a class="text-decoration-none" href="https://github.com/hector-garcia-27">Github</a>
                             </li>
-                            <li class="list-group-item">
-                                <i class="fa-solid fa-location-dot fa-xl" style="color: #000000;"></i>
-                                <a class="text-decoration-none" style="color: #000000;" href="">Decima Av. 1180. San
+                            <li class="pb-2">
+                                <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
+                                <a class="text-decoration-none" style="color: antiquewhite" href="">Decima Av. 1180. San
                                     Miguel</a>
                             </li>
-                            <li class="list-group-item"></li>
                         </ul>
                     </div>
                     <!-- software -->
                     <div>
-                        <h4>Manejo de Software</h4>
-                        <ul class="list-unstyled text-start">
-                            <li class="lh-1">Excel</li>
-                            <li class="lh-1">ERP SAP S/4 HANA</li>
-                            <li class="lh-1">HCM FRONT</li>
-                            <li class="lh-1">AutoCAD</li>
+                        <h4 class="ft text-center">Manejo de herramientas</h4>
+                        <ul class="text-start">
+                            <li>Microsoft Office</li>
+                            <li>Sistema ERP SAP S/4 HANA</li>
+                            <li>HCM FRONT</li>
+                            <li>AutoCAD</li>
                         </ul>
+                    </div>
+
+                    <!-- habilidades blandas -->
+                    <div class="hab">
+                        <h4 class="ft">Habilidades blandas</h4>
+                        <p class="text-start">Capacidad de organización, autonomía, Comunicación acertiva, proactivo,
+                            honesto y responsable</p>
                     </div>
                 </div>
             </div>
@@ -114,11 +137,12 @@
                 <!-- Formacion -->
 
                 <section>
-                    <h4 class="ft">Formación académca</h4>
+                    <h4 class="ft">Formación académica</h4>
                     <div class="card mb-3">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="./assets/img/logo_unet.jpg" class="img-fluid p-2 rounded-start" alt="logo UNET">
+                                <img src="./assets/img/logo_unet.jpg" class="img-fluid p-2 rounded-start"
+                                    alt="logo UNET">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -282,8 +306,10 @@
                     aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
-                <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button> -->
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button> -->
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
@@ -383,19 +409,50 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                     <div class="card-portafolio">
-                        <img src="./assets/img/logo-inacap.jpg" alt="">
+                        <img src="./assets/img/flexbox.png" alt="img proyecto 5">
                         <div class="card-description">
                             <div class="card-title">
-                                <h4>Descripción</h4>
+                                <h6>Descripción</h6>
                             </div>
                             <div class="card-text">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
                                     non, modisunt ips.</p>
                             </div>
                             <div class="card-link">
-                                <a href="#">Ver más</a>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://hector-garcia-27.github.io/flex/" target="_blank"
+                                        class="link-light">Abrir en nueva pestaña</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://github.com/hector-garcia-27/flex" target="_blank"
+                                        class="link-light">ir al repositorio</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="carousel-item" data-bs-interval="2000">
+                    <div class="card-portafolio">
+                        <img src="./assets/img/desafio-cuatro.png" alt="img proyecto 4">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h6>Descripción</h6>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum
+                                    non, modisunt ips.</p>
+                            </div>
+                            <div class="card-link">
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://hector-garcia-27.github.io/desafio-cuatro/" target="_blank"
+                                        class="link-light">Abrir en nueva pestaña</a>
+                                </button>
+                                <button type="button" class="btn btn-secondary">
+                                    <a href="https://github.com/hector-garcia-27/desafio-cuatro" target="_blank"
+                                        class="link-light">ir al repositorio</a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -414,8 +471,8 @@
         </div>
 
         <!-- footer -->
-        <footer class="text-center">
-            <h6>Héctor García 2023. Todos los derechos reservados</h6>
+        <footer>
+            <p class="ft-bold">Héctor García 2023. Todos los derechos reservados</p>
         </footer>
 
 
